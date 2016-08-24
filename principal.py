@@ -17,7 +17,8 @@ jugador_principal.rect.x = 0
 #jugador_principal.rect.y = constantes.ALTURA_PANTALLA - jugador_principal.rect.height
 jugador_principal.rect.y = 300
 
-
+"""Esto es un comentario"""
+print "Hola"
 lista_sprites_activos = pygame.sprite.Group()
 lista_sprites_activos.add(jugador_principal)
 
